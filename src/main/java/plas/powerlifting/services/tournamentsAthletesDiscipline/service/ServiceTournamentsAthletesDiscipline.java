@@ -1,0 +1,11 @@
+package plas.powerlifting.services.tournamentsAthletesDiscipline.service;
+
+import lombok.AllArgsConstructor;
+import org.springframework.stereotype.Service;
+import plas.powerlifting.repository.TournamentsAthletesDisciplineRepositoryInterface;
+
+@Service
+@AllArgsConstructor
+public class ServiceTournamentsAthletesDiscipline implements ServiceTournamentsAthletesDisciplineInterface {
+    private final TournamentsAthletesDisciplineRepositoryInterface tournamentsAthletesDisciplineRepository;
+}
